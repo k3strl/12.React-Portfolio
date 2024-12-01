@@ -11,20 +11,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
-        <section id="hero">
-          <Hero />
-        </section>
-        <section id="projects">
-          <Projects />
-        </section>
-        <section id="navbar">
-          <Navbar />
-        </section>
-        <section id="contact">
-          <Contact />
-        </section>
-      </main>
+      <Hero />
       <Footer />
     </>
   );

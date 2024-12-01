@@ -1,14 +1,17 @@
 // src/components/Header.js
 import React from 'react';
-import Navbar from 'Navbar';
+import Navbar from './Navbar.jsx';
+
 const Header = () => {
  return (
   <header>
-    <h1>Header</h1>
+    <h1>Nic Blaize</h1>
     <Navbar />
   </header>
  );
 };
+
+export default Header;
 
 // function Header() {
 //   const handleNavigation = (sectionId) => {
@@ -29,4 +32,3 @@ const Header = () => {
 //   );
 // }
 
-export default Header;

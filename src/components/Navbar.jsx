@@ -18,6 +18,8 @@ const Navbar = () => {
   );
 };
 
+export default Navbar;
+
 // export default function Navbar() {
 //   const linkStyle = { border: "1px black", padding: "5px" };
 
