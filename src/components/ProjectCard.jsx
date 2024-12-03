@@ -19,7 +19,7 @@ function renderProjectCard(project) {
     );
 }
 
-function renderProjectsModule(projectArray) {
+function renderProjects(projectArray) {
     const module = []
     for (let i = 0; i < projectArray.length; i++) {
         const newCard = renderProjectCard(projectArray[i]);
@@ -28,4 +28,4 @@ function renderProjectsModule(projectArray) {
     return module;
 }
 
-export { renderProjectCard, renderProjectsModule };
+export { renderProjectCard, renderProjects };
