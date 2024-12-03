@@ -15,4 +15,20 @@ const Project = ({ title, description, link, image }) => {
   );
 };
 
-export default Project;
+const Projects = ({ projects }) => {
+  return (
+    <div className="projects">
+      {projects.map((project, index) => (
+        <Project
+          key={index}
+          title={project.title}
+          description={project.description}
+          link={project.link}
+          image={project.image}
+        />
+      ))}
+    </div>
+  );
+};
+
+export default Projects;

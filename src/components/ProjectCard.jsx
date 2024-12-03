@@ -9,11 +9,13 @@ function renderProjectCard(project) {
     return (
         <div className="card">
             <div>
-                {title}
-                {img}
+                <h3>{title}</h3>
+                {img && <img src={img} alt={title} />}
             </div>
             <section className="content">
-                {desc}
+                <p>{desc}</p>
+                {pageLink && <a href={pageLink} target="_blank" rel="noopener noreferrer">View Project</a>}
+                {gitLink && <a href={gitLink} target="_blank" rel="noopener noreferrer">View Code</a>}
             </section>
         </div>
     );

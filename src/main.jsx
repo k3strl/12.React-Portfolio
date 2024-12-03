@@ -1,10 +1,11 @@
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 import './styles/index.css';
 import App from './App';
-import Hero from './components/navbar/Hero';
+import Hero from './components/Hero';
 import ErrorPage from './components/ErrorPage';
-import Projects from './components/navbar/Projects';
+import Projects from './components/Projects';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
         element: <Hero />,
       },
       {
-        path: 'projects',
+        path: '/componennts/navbar/Projects',
         element: <Projects />,
       },
       {
