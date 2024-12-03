@@ -1,12 +1,12 @@
 // src/components/Header.js
 import React from 'react';
-import Navbar from './Navbar.jsx';
+// import Navbar from './Navbar.jsx';
 
 const Header = () => {
  return (
   <header>
     <h1>Nic Blaize</h1>
-    <Navbar />
+    {/* <Navbar /> */}
   </header>
  );
 };
