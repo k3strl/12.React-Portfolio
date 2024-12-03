@@ -22,12 +22,7 @@ function renderProjectCard(project) {
 }
 
 function renderProjects(projectArray) {
-    const module = []
-    for (let i = 0; i < projectArray.length; i++) {
-        const newCard = renderProjectCard(projectArray[i]);
-        module.push(newCard);
-    }
-    return module;
+    return projectArray.map(project => renderProjectCard(project));
 }
 
 export { renderProjectCard, renderProjects };

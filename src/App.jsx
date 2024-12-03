@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './styles/index.css';
+import projectsData from "./data/projectsData"; // Import your projects data
 
 const { Header: AntHeader, Footer: AntFooter, Sider, Content } = Layout;
 
@@ -52,7 +53,7 @@ function App() {
       case 'hero':
         return <Hero />;
       case 'projects':
-        return <Projects />;
+        return <Projects projects={projectsData} />; // Pass projects data
       case 'contact':
         return <Contact />;
       default:
