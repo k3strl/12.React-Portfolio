@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../../styles/index.css";
+import "../styles/index.css";
 
 function Form() {
   // Here we set two state variables for firstName and lastName using `useState`

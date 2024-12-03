@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import { Flex, Layout } from 'antd';
 import Header from "./components/Header";
-import Hero from "./components/navbar/Hero";
-import Projects from "./components/navbar/Projects";
-import Contact from "./components/navbar/Contact";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import './styles/index.css';
+import projectsData from "./data/projectsData"; // Import your projects data
 
 const { Header: AntHeader, Footer: AntFooter, Sider, Content } = Layout;
 
@@ -40,8 +41,8 @@ const footerStyle = {
 const layoutStyle = {
   borderRadius: 8,
   overflow: 'hidden',
-  width: 'calc(50% - 8px)',
-  maxWidth: 'calc(50% - 8px)',
+  width: 'calc(100% - 8px)',
+  maxWidth: 'calc(100% - 8px)',
 };
 
 function App() {
@@ -52,7 +53,7 @@ function App() {
       case 'hero':
         return <Hero />;
       case 'projects':
-        return <Projects />;
+        return <Projects projects={projectsData} />; // Pass projects data
       case 'contact':
         return <Contact />;
       default:
@@ -67,7 +68,7 @@ function App() {
           <Header />
         </AntHeader>
         <Layout>
-          <Sider width="25%" style={siderStyle}>
+          <Sider width="15%" style={siderStyle}>
             <Navbar setActiveComponent={setActiveComponent} />
           </Sider>
           <Content style={contentStyle}>
