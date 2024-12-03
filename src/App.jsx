@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useContext } from 'react';
 import Header from "./components/Header";
 import Hero from "./components/navbar/Hero";
 import Projects from "./components/navbar/Projects";
@@ -20,7 +19,7 @@ function App() {
       case 'contact':
         return <Contact />;
       default:
-        return null; // Update default case
+        return null;
     }
   };
 

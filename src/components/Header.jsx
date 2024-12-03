@@ -5,7 +5,7 @@ import React from 'react';
 const Header = () => {
  return (
   <header>
-    <h1>Nic Blaize</h1>
+    <h1 className=".syncopate-regular">Nic Blaize</h1>
     {/* <Navbar /> */}
   </header>
  );
