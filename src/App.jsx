@@ -7,7 +7,7 @@ import Contact from "./components/navbar/Contact";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import './index.css';
+import './styles/index.css';
 
 const { Header: AntHeader, Footer: AntFooter, Sider, Content } = Layout;
 
