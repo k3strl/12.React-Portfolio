@@ -14,8 +14,8 @@ function renderProjectCard(project) {
             </div>
             <section className="content">
                 <p>{desc}</p>
-                {pageLink && <a href={pageLink} target="_blank" rel="noopener noreferrer">View Project</a>}
-                {gitLink && <a href={gitLink} target="_blank" rel="noopener noreferrer">View Code</a>}
+                {pageLink && <a href={pageLink} target="_blank" rel="noopener noreferrer" style={{ lineHeight: '1' }}>View Project</a>}
+                {gitLink && <a href={gitLink} target="_blank" rel="noopener noreferrer" style={{ lineHeight: '1' }}>View Code</a>}
             </section>
         </div>
     );
