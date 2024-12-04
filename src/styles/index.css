@@ -1,19 +1,8 @@
 :root {
-  --papaya-whip: #fff3d9ff;
-  --buff: #ce9874ff;
-  --ash-gray: #9aaea6ff;
-  --bittersweet: #e95f58ff;
-  --prussian-blue: #122435ff;
-  --thistle: #d8bfd8;
-  --ultra-violet: #5f4b8b;
-  --oxford-blue: #0e1a35;
-  --tiffany-blue: #0abab5;
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-  min-height: 100%;
+  --lightest: #d5c6e0ff;
+  --med-light: #aaa1c8ff;
+  --mid-dark: #967aa1ff;
+  --darkest: #192a51ff;
 }
 
 #root {
@@ -22,15 +11,38 @@ html, body {
   min-height: 100vh;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
 footer {
   margin-top: auto;
+  background-color: var(--lightest);
 }
 
 h1 {
   font-family: "Syncopate", serif;
   font-weight: 400;
   font-style: normal;
-  color: var(--papaya-whip);
+  color: var(--darkest);
+}
+
+nav {
+  background-color: var(--darkest);
+}
+
+nav a {
+  color: var(--lightest);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .projects-grid {
@@ -38,7 +50,7 @@ h1 {
   flex-wrap: wrap;
   gap: 50px;
   padding: 16px;
-  background-color: var(--papaya-whip);
+  background-color: var(--mid-dark);
 }
 
 .projects-grid > * {
@@ -54,7 +66,7 @@ h1 {
   max-width: 600px;
   margin: 0 auto;
   padding: 16px;
-  background-color: var(--thistle);
+  background-color: var(--mid-dark);
   border-radius: 8px;
 }
 
@@ -71,14 +83,14 @@ h1 {
 .contact-form label {
   display: block;
   margin-bottom: 8px;
-  color: var(--oxford-blue);
+  color: var(--med);
 }
 
 contact-form input,
 .contact-form textarea {
   width: 100%;
   padding: 8px;
-  border: 1px solid var(--tiffany-blue);
+  border: 1px solid var(--med-light);
   border-radius: 4px;
 }
 
@@ -92,14 +104,14 @@ contact-form input,
   display: block;
   width: 100%;
   padding: 12px;
-  background-color: var(--papaya-whip);
-  color: var(--prussian-blue);
+  background-color: var(--lightest);
+  color: var(--darkest);
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .contact-form button:hover {
-  background-color: var(--oxford-blue);
+  background-color: var(--med-light);
 }
 
