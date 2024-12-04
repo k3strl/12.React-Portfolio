@@ -18,7 +18,7 @@ const headerStyle = {
   height: 64,
   paddingInline: 48,
   lineHeight: '64px',
-  backgroundColor: '#4096ff',
+  backgroundColor: 'var(--darkest)',
 };
 const contentStyle = {
   textAlign: 'center',
@@ -31,7 +31,7 @@ const siderStyle = {
   textAlign: 'center',
   lineHeight: '120px',
   color: '#fff',
-  backgroundColor: '#1677ff',
+  backgroundColor: 'var(--darkest)',
 };
 const footerStyle = {
   textAlign: 'center',
