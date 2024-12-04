@@ -33,6 +33,15 @@ h1 {
   color: var(--papaya-whip);
 }
 
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .projects-grid {
   display: flex;
   flex-wrap: wrap;
