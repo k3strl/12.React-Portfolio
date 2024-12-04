@@ -1,13 +1,9 @@
 :root {
-  --papaya-whip: #fff3d9ff;
-  --buff: #ce9874ff;
-  --ash-gray: #9aaea6ff;
-  --bittersweet: #e95f58ff;
-  --prussian-blue: #122435ff;
-  --thistle: #d8bfd8;
-  --ultra-violet: #5f4b8b;
-  --oxford-blue: #0e1a35;
-  --tiffany-blue: #0abab5;
+  --lavender-blush: #f5e6e8ff;
+  --thistle: #d5c6e0ff;
+  --rose-quartz: #aaa1c8ff;
+  --mountbatten-pink: #967aa1ff;
+  --space-cadet: #192a51ff;
 }
 
 html, body {
