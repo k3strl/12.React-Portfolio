@@ -4,6 +4,9 @@
   ## Description
   This is my updated portfolio, written in React, which will help me to stand out from other developers whose portfolios don't use the latest technologies.
 
+  ## Screenshot
+   ![screenshot of application](src/assets/screenshot.jpg)
+
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)

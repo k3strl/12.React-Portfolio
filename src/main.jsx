@@ -10,7 +10,11 @@ import Projects from './components/Projects';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: (
+      <>
+        <App />
+      </>
+    ),
     errorElement: <ErrorPage />,
     children: [
       {
