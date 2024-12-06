@@ -22,7 +22,7 @@ const router = createBrowserRouter([
         element: <Hero />,
       },
       {
-        path: '/componennts/navbar/Projects',
+        path: '/components/navbar/Projects',
         element: <Projects />,
       },
       {

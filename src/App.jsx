@@ -44,6 +44,12 @@ const layoutStyle = {
   width: '100%',
   maxwidth: '100%',
 };
+const mainStyle = {
+  flex: '0 0 85%',
+  maxwidth: '85%', 
+  minwidth: '85%', 
+  width: '85%'
+}
 
 function App() {
   const [activeComponent, setActiveComponent] = useState('hero');
@@ -71,7 +77,7 @@ function App() {
           <Sider width="15%" style={siderStyle}>
             <Navbar setActiveComponent={setActiveComponent} />
           </Sider>
-          <main>
+          <main style={mainStyle}>
             <Content style={contentStyle}>
               {renderComponent()}
             </Content>
