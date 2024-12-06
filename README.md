@@ -17,13 +17,13 @@
   - [Questions](#questions)
 
   ## Installation
-  Go to the deployed link, provided here:
-
+  Go to the deployed link, provided here: [Netlify](https://nic-react-portfolio.netlify.app/)
+  
   ## Usage
   Click on any of the links to see more information about me.
 
   ## Credits
-  I used Ant Design 5.0 to help me design my website.
+  I used Ant Design 5.0 to help me design my page. Fonts are from Google. I also received a lot of help from classmates and TAs.
 
   ## License
   This project is licensed under the ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) [MIT](https://opensource.org/licenses/MIT) license.
