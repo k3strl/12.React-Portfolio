@@ -15,9 +15,9 @@ const { Header: AntHeader, Footer: AntFooter, Sider, Content } = Layout;
 const headerStyle = {
   textAlign: 'center',
   color: '#fff',
-  height: 84, // Increase height by 20px
+  height: 100, // Increase height by 20px
   paddingInline: 48,
-  lineHeight: '84px', // Adjust line height accordingly
+  lineHeight: '2em', // Adjust line height accordingly
   backgroundColor: 'var(--darkest)',
 };
 const contentStyle = {
@@ -41,8 +41,8 @@ const footerStyle = {
 const layoutStyle = {
   borderRadius: 8,
   overflow: 'hidden',
-  width: 'calc(100% - 8px)',
-  maxWidth: 'calc(100% - 8px)',
+  width: '100%',
+  maxwidth: '100%',
 };
 
 function App() {
