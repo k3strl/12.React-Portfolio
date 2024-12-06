@@ -5,13 +5,13 @@ const Footer = () => {
     <footer>
       <ul>
         <li>
-          Github
+          <a href="https://github.com/k3strl">Github</a>
         </li>
         <li>
-          LinkedIn
+        <a href="https://www.linkedin.com/">LinkedIn</a>
         </li>
         <li>
-          Bluesky
+        <a href="https://bsky.app/profile/k3strl.bsky.social">Bluesky</a>
         </li>
       </ul>
       <p>© 2024 Nic Blaize. All Rights Reserved.</p>

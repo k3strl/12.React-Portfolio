@@ -1,19 +1,19 @@
 import React from "react";
-// About me stuff goes here!
+import profilePic from "../assets/profilepic.jpg"; // Adjust the path as necessary
+
 const Hero = () => {
   return (
-    <div>
-      <ul>
-        <li>
-          <h2>Hi, I'm Nic!</h2>
-        </li>
-        <li>
-          <h3>
-            I'm a full-stack developer half-way through the University of
-            Minnesota/BCS coding bootcamp.
-          </h3>
-        </li>
-      </ul>
+    <div className="hero-container">
+      <img src={profilePic} alt="Profile" className="profile-pic" />
+      <div className="about-me">
+        <ul>
+          <li>
+            <h3>
+              Hi there! I'm soon-to-be a full-stack developer. I will finish the University of Minnesota/BCS coding bootcamp in March.
+            </h3>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };

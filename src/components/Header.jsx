@@ -5,8 +5,9 @@ import React from 'react';
 const Header = () => {
  return (
   <header>
-    <h1 className=".syncopate-regular">Nic Blaize</h1>
-    {/* <Navbar /> */}
+    <h1 className=".syncopate-regular">
+      <img></img>Nic Blaize
+    </h1>
   </header>
  );
 };
