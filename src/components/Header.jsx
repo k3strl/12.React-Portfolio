@@ -1,35 +1,13 @@
 // src/components/Header.js
 import React from 'react';
-// import Navbar from './Navbar.jsx';
 
 const Header = () => {
  return (
   <header>
-    <h1 className=".syncopate-regular">
-      <img></img>Nic Blaize
-    </h1>
+    <h1 className=".syncopate-regular">Nic Blaize</h1>
   </header>
  );
 };
 
 export default Header;
-
-// function Header() {
-//   const handleNavigation = (sectionId) => {
-//     document.getElementById(sectionId).scrollIntoView({ behavior: "smooth" });
-//   };
-
-//   return (
-//     <header>
-//       <nav>
-//         <ul>
-//           <li onClick={() => handleNavigation("hero")}>Home</li>
-//           <li onClick={() => handleNavigation("projects")}>Projects</li>
-//           {/* <li onClick={() => handleNavigation("skills")}>Skills</li> */}
-//           <li onClick={() => handleNavigation("contact")}>Contact</li>
-//         </ul>
-//       </nav>
-//     </header>
-//   );
-// }
 

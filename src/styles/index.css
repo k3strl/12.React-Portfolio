@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
 
 :root {
   --lightest: #d5c6e0ff;
@@ -11,9 +11,11 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  min-width: display;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   min-height: 100%;
@@ -32,7 +34,9 @@ footer {
 }
 
 footer * {
-  background-color: var(--darkest); /* Ensure all elements in the footer have the same background color */
+  background-color: var(
+    --darkest
+  ); /* Ensure all elements in the footer have the same background color */
 }
 
 footer ul {
@@ -49,6 +53,8 @@ footer li {
 footer a {
   color: var(--lightest);
   text-decoration: none;
+  font-family: "ABeeZee", serif;
+  font-size: 1.5em;
 }
 
 footer a:hover {
@@ -71,7 +77,6 @@ nav {
   background-color: var(--darkest);
   font-family: "ABeeZee", serif;
   font-size: 2em;
-
 }
 
 nav a {
@@ -100,8 +105,17 @@ ul {
   line-height: 1.2;
 }
 
+.projects-grid .card a {
+  margin-right: 15px; /* Increase margin to create more space between links */
+  font-family: "ABeeZee", serif; /* Use the same font as the navbar */
+  color: var(--darkest); /* Set the color to --darkest */
+  text-decoration: none; /* Remove underline */
+  font-size: 1em; /* Update font size */
+}
+
 .contact-form {
-  max-width: 600px; /* Restore the max-width constraint */
+  /* Remove the max-width constraint */
+  /* max-width: 600px; */
   margin: 0 auto;
   padding: 16px;
   background-color: var(--mid-dark);
@@ -168,13 +182,10 @@ contact-form input,
 }
 
 .social-links {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  padding: 10px 0;
+  display: none; /* Hide the social links */
 }
 
-.social-links a {
+social-links a {
   color: var(--darkest);
   text-decoration: none;
 }
@@ -189,4 +200,3 @@ img[src*="assets/projects"] {
   border: 5px solid #192a51ff;
   object-fit: cover; /* Ensure the image covers the area without distortion */
 }
-
