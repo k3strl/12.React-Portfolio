@@ -15,9 +15,9 @@ const { Header: AntHeader, Footer: AntFooter, Sider, Content } = Layout;
 const headerStyle = {
   textAlign: 'center',
   color: '#fff',
-  height: 64,
+  height: 84, // Increase height by 20px
   paddingInline: 48,
-  lineHeight: '64px',
+  lineHeight: '84px', // Adjust line height accordingly
   backgroundColor: 'var(--darkest)',
 };
 const contentStyle = {
@@ -36,7 +36,7 @@ const siderStyle = {
 const footerStyle = {
   textAlign: 'center',
   color: '#fff',
-  backgroundColor: '#4096ff',
+  backgroundColor: 'var(--darkest)', // Update footer color
 };
 const layoutStyle = {
   borderRadius: 8,
@@ -71,9 +71,11 @@ function App() {
           <Sider width="15%" style={siderStyle}>
             <Navbar setActiveComponent={setActiveComponent} />
           </Sider>
-          <Content style={contentStyle}>
-            {renderComponent()}
-          </Content>
+          <main>
+            <Content style={contentStyle}>
+              {renderComponent()}
+            </Content>
+          </main>
         </Layout>
         <AntFooter style={footerStyle}>
           <Footer />
