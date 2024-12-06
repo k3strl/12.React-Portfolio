@@ -21,9 +21,9 @@ const Navbar = ({ setActiveComponent }) => {
         </ul>
       </nav>
       <div className="social-links">
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">Github</a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        <a href="https://bsky.app/profile/yourusername" target="_blank" rel="noopener noreferrer">Bluesky</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Github</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Bluesky</a>
       </div>
     </>
   );

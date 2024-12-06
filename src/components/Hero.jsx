@@ -9,8 +9,7 @@ const Hero = () => {
         <ul>
           <li>
             <h3>
-              ... will finish the University of
-              Minnesota/BCS coding bootcamp as a full-stack developer.
+              Hi there! I'm soon-to-be a full-stack developer. I will finish the University of Minnesota/BCS coding bootcamp in March.
             </h3>
           </li>
         </ul>

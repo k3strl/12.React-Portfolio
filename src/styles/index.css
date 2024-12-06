@@ -35,6 +35,26 @@ footer * {
   background-color: var(--darkest); /* Ensure all elements in the footer have the same background color */
 }
 
+footer ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+footer li {
+  margin: 0 10px;
+  list-style: none;
+}
+
+footer a {
+  color: var(--lightest);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 h1 {
   font-family: "Syncopate", serif;
   font-weight: 400;
@@ -81,8 +101,7 @@ ul {
 }
 
 .contact-form {
-  width: 100%; /* Ensure the form covers the entire width */
-  max-width: 100%; /* Remove the max-width constraint */
+  max-width: 600px; /* Restore the max-width constraint */
   margin: 0 auto;
   padding: 16px;
   background-color: var(--mid-dark);
@@ -161,17 +180,8 @@ contact-form input,
 }
 
 social-links a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
-
-/*
-img.project-images {
-  width: 200px;
-  height: 200px;
-  border: 5px solid #192a51ff;
-  /* object-fit: cover; Ensure the image covers the area without distortion 
-}
-*/
 
 img[src*="assets/projects"] {
   width: 200px;
