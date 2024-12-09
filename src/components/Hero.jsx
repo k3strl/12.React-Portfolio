@@ -1,10 +1,10 @@
 import React from "react";
-import profilePic from "../assets/profilepic.jpg"; // Adjust the path as necessary
+// import profilePic from "../assets/profilepic.jpg"; // Adjust the path as necessary
 
 const Hero = () => {
   return (
     <div className="hero-container">
-      <img src={profilePic} alt="Profile" className="profile-pic" />
+      <img src={"/assets/profilepic.jpg"} alt="Profile" className="profile-pic" />
       <div className="about-me">
         <ul>
           <li>
